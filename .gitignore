@@ -56,3 +56,9 @@ hugo.linux
 .ionide
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode,hugo,linux,kate
+
+/.idea
+/node_modules/*
+/exampleSite/public
+/exampleSite/hugo_stats.json
+.DS_Store
