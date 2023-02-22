@@ -14,7 +14,7 @@ DefaultContentLanguageInSubdir = true
     [languages.en.params]
       introTitle = "Nicolas Greliche, alias Greu & Duduq"
       introSubtitle = "J'ai la conviction que ce que je peux faire de mieux pour la societe, c'est mener a bien les reflexion et projets que j'ai dans la tete. Alors c'est ce que j'essaie de faire, en esperant trouver une facon d'en vivre."
-      introPhoto = "/picture.jpg"
+      introPhoto = "me.JPG"
       logo = "/blist-logo.png"
     [[languages.en.menu.main]]
         name = "Blog"
