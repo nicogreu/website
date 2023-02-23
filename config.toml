@@ -4,6 +4,7 @@ title = "Nicolas Greliche site"
 metaDataFormat = "yaml"
 theme = "blist"
 
+
 DefaultContentLanguage = "en"
 DefaultContentLanguageInSubdir = true
 [languages]
@@ -12,7 +13,9 @@ DefaultContentLanguageInSubdir = true
     weight = 1
     languageName = "English"
     [languages.en.params]
-      introTitle = "Nicolas Greliche, alias Greu & Duduq"
+      introTitle = "Nicolas Greliche"
+      introAlias = "alias greu & duduq"
+      introJobs = "Statistician, Independant Researcher, Artist"
       introSubtitle = "J'ai la conviction que ce que je peux faire de mieux pour la societe, c'est mener a bien les reflexion et projets que j'ai dans la tete. Alors c'est ce que j'essaie de faire, en esperant trouver une facon d'en vivre."
       introPhoto = "/me.JPG"
       logo = "/blist-logo.png"
@@ -38,6 +41,9 @@ DefaultContentLanguageInSubdir = true
 
 
 [params]
+
+  custom_css = ["custom.css"]
+
   # Enable the darkmode toggle in header
   darkModeToggle = true
   

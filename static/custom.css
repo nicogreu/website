@@ -1,0 +1,28 @@
+/* Fonts */
+
+/* Kggloria - latin */
+@font-face {
+    font-family: "Kggloria";
+    font-style: normal;
+    src: url("/fonts/inter-v3-latin-300.eot"); /* IE9 Compat Modes */
+    src: local(""),
+      url("/fonts/inter-v3-latin-300.eot?#iefix") format("embedded-opentype"),
+      /* IE6-IE8 */ url("/fonts/kggloria.woff2") format("woff2"),
+      /* Super Modern Browsers */ url("/fonts/kggloria.woff")
+        format("woff"),
+      /* Modern Browsers */ url("/fonts/kggloria.ttf")
+        format("truetype"),
+      /* Safari, Android, iOS */ url("/fonts/inter-v3-latin-300.svg#Inter")
+        format("svg"); /* Legacy iOS */
+} 
+
+
+h3 {
+    font-family: 'Kggloria';
+}
+/*body {
+    font-family: 'Kggloria';
+}*/
+/*p {
+    font-family: 'Kggloria';
+}*/
