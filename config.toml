@@ -16,7 +16,8 @@ DefaultContentLanguageInSubdir = true
       introTitle = "Nicolas Greliche"
       introAlias = "alias greu & duduq"
       introJobs = "Statistician, Independant Researcher, Artist"
-      introSubtitle = "J'ai la conviction que ce que je peux faire de mieux pour la societe, c'est mener a bien les reflexion et projets que j'ai dans la tete. Alors c'est ce que j'essaie de faire, en esperant trouver une facon d'en vivre."
+      introSubtitle = "J'ai la conviction que ce que je peux faire de mieux pour la societe, c'est mener a bien les reflexion et projets que j'ai dans la tete. Alors c'est ce que j'essaie de faire, en esperant reussir a en vivre."
+      introSoutien = "Les nombreuses facons de me soutenir"
       introPhoto = "/me.JPG"
       logo = "/blist-logo.png"
     [[languages.en.menu.main]]
