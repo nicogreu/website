@@ -65,9 +65,12 @@
   {{ end }}
 
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+
   {{ range .Site.Params.custom_css -}}
   <link rel="stylesheet" href="{{ . | absURL }}">
   {{- end }}
 
-  
 </head>
