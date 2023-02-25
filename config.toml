@@ -1,6 +1,6 @@
 baseURL = "https://nicogreu.github.io/"
 languageCode = "en-us"
-title = "Nicolas Greliche site"
+#title = "Nicolas Greliche site"
 metaDataFormat = "yaml"
 theme = "blist"
 
@@ -15,8 +15,8 @@ DefaultContentLanguageInSubdir = true
     [languages.en.params]
       introTitle = "Nicolas Greliche"
       introAlias = "alias greu & duduq"
-      introJobs = "Statistician, Independant Researcher, Artist"
-      introSubtitle = "J'ai la conviction que ce que je peux faire de mieux pour la societe, c'est mener a bien les reflexion et projets que j'ai dans la tete. Alors c'est ce que j'essaie de faire, en esperant reussir a en vivre."
+      introJobs = "Statistician, Independent Researcher, Artist"
+      introSubtitle = "Blah e de mieux pour la societe, c'est mener a bien les reflexion et projets que j'ai dans la tete. Alors c'est ce que j'essaie de faire, en esperant reussir a en vivre."
       introSoutien = "Les nombreuses facons de me soutenir"
       introPhoto = "/me.JPG"
       logo = "/blist-logo.png"
@@ -27,11 +27,11 @@ DefaultContentLanguageInSubdir = true
 
     [[languages.en.menu.main]]
         name = "About"
-        url = "page/about/"
+        url = "about/"
         weight = 2
 
     [[languages.en.menu.main]]
-        name = "Tags"
+        name = "Projects"
         url = "tags"
         weight = 3
 
@@ -40,6 +40,68 @@ DefaultContentLanguageInSubdir = true
         url = "/en/blog/emoji-support/"
         weight = 4
 
+  [languages.fr]
+    contentDir = "content/fr" #French
+    weight = 1
+    languageName = "Francais"
+    [languages.fr.params]
+      introTitle = "Nicolas Greliche"
+      introAlias = "alias greu & duduq"
+      introJobs = "Statisticien, Chercheur independant, Artiste"
+      introSubtitle = "J'ai la conviction que ce que je peux faire de mieux pour la societe, c'est mener a bien les reflexion et projets que j'ai dans la tete. Alors c'est ce que j'essaie de faire, en esperant reussir a en vivre."
+      introSoutien = "Vous pouvez me soutenir de nombreuses facons"
+      introPhoto = "/me.JPG"
+    [[languages.fr.menu.main]]
+        name = "Blog"
+        url = "blog"
+        weight = 1
+
+    [[languages.fr.menu.main]]
+        name = "A propos"
+        url = "page/about/"
+        weight = 2
+
+    [[languages.fr.menu.main]]
+        name = "Tags"
+        url = "tags"
+        weight = 3
+
+    [[languages.fr.menu.main]]
+        name = "Top Post"
+        url = "/en/blog/emoji-support/"
+        weight = 4
+
+  [languages.es]
+    contentDir = "content/es" #Espanol
+    weight = 1
+    languageName = "Espanol"
+    [languages.es.params]
+      introTitle = "Nicolas Greliche"
+      introAlias = "alias greu & duduq"
+      introJobs = "Estadistico, Independent Researcher, Artist"
+      introSubtitle = "Blah e de mieux pour la societe, c'est mener a bien les reflexion et projets que j'ai dans la tete. Alors c'est ce que j'essaie de faire, en esperant reussir a en vivre."
+      introSoutien = "Les nombreuses facons de me soutenir"
+      introPhoto = "/me.JPG"
+      logo = "/blist-logo.png"
+    [[languages.es.menu.main]]
+        name = "Blog"
+        url = "blog"
+        weight = 1
+
+    [[languages.es.menu.main]]
+        name = "About"
+        url = "page/about/"
+        weight = 2
+
+    [[languages.es.menu.main]]
+        name = "Tags"
+        url = "tags"
+        weight = 3
+
+    [[languages.es.menu.main]]
+        name = "Top Post"
+        url = "/en/blog/emoji-support/"
+        weight = 4
 
 [params]
 
