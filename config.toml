@@ -16,10 +16,8 @@ DefaultContentLanguageInSubdir = true
       introTitle = "Nicolas Greliche"
       introAlias = "alias greu & duduq"
       introJobs = "Statistician, Independent Researcher, Artist"
-      introSubtitle = "Blah e de mieux pour la societe, c'est mener a bien les reflexion et projets que j'ai dans la tete. Alors c'est ce que j'essaie de faire, en esperant reussir a en vivre."
-      introSoutien = "Les nombreuses facons de me soutenir"
-      introPhoto = "/me.JPG"
-      logo = "/blist-logo.png"
+      introPhoto = "/Me tweaked.jpg"
+      logo = "/logo3.png"
     [[languages.en.menu.main]]
         name = "Blog"
         url = "blog"
@@ -47,10 +45,9 @@ DefaultContentLanguageInSubdir = true
     [languages.fr.params]
       introTitle = "Nicolas Greliche"
       introAlias = "alias greu & duduq"
-      introJobs = "Statisticien, Chercheur independant, Artiste"
-      introSubtitle = "J'ai la conviction que ce que je peux faire de mieux pour la societe, c'est mener a bien les reflexion et projets que j'ai dans la tete. Alors c'est ce que j'essaie de faire, en esperant reussir a en vivre."
-      introSoutien = "Vous pouvez me soutenir de nombreuses facons"
-      introPhoto = "/me.JPG"
+      introJobs = "Statisticien, Chercheur indépendant, Artiste"
+      introPhoto = "/Me tweaked.jpg"
+      logo = "/logo3.png"
     [[languages.fr.menu.main]]
         name = "Blog"
         url = "blog"
@@ -67,38 +64,6 @@ DefaultContentLanguageInSubdir = true
         weight = 3
 
     [[languages.fr.menu.main]]
-        name = "Top Post"
-        url = "/en/blog/emoji-support/"
-        weight = 4
-
-  [languages.es]
-    contentDir = "content/es" #Espanol
-    weight = 1
-    languageName = "Espanol"
-    [languages.es.params]
-      introTitle = "Nicolas Greliche"
-      introAlias = "alias greu & duduq"
-      introJobs = "Estadistico, Independent Researcher, Artist"
-      introSubtitle = "Blah e de mieux pour la societe, c'est mener a bien les reflexion et projets que j'ai dans la tete. Alors c'est ce que j'essaie de faire, en esperant reussir a en vivre."
-      introSoutien = "Les nombreuses facons de me soutenir"
-      introPhoto = "/me.JPG"
-      logo = "/blist-logo.png"
-    [[languages.es.menu.main]]
-        name = "Blog"
-        url = "blog"
-        weight = 1
-
-    [[languages.es.menu.main]]
-        name = "About"
-        url = "page/about/"
-        weight = 2
-
-    [[languages.es.menu.main]]
-        name = "Tags"
-        url = "tags"
-        weight = 3
-
-    [[languages.es.menu.main]]
         name = "Top Post"
         url = "/en/blog/emoji-support/"
         weight = 4
@@ -128,8 +93,8 @@ DefaultContentLanguageInSubdir = true
   ]
 
   # Custom copyright - optional
-  copyright = "Copyright © 2021 - Katheryn Fox · All rights reserved"
-  favicon = "/favicon.svg"
+  copyright = "Copyright © 2021 - Nicolas Greliche · All rights reserved"
+  favicon = "/favicon_black.svg"
 
   # Color for the intro details and social links block, not applicable for dark mode
   # Supported values: Any color from TailwindCSS default colors
@@ -137,7 +102,7 @@ DefaultContentLanguageInSubdir = true
   ascentColor = "bg-blue-100"
 
   # The page bundle that is shown on the front page
-  frontBundle = "blog"
+  frontBundle = "page"
 
   # Used to hide the post metadata such as posted date, reading time and word count
   # Can be used at site level or page level
@@ -184,24 +149,38 @@ DefaultContentLanguageInSubdir = true
   title = "Follow me"
   description = "I work on everything coding and tweet developer memes"
 
+
+  [[params.homepage.social.icons]]
+    website = "instagram"
+    url = "https://www.instagram.com/duduqdrawstuff/"
+  [[params.homepage.social.icons]]
+    website = "whatsapp"
+    url = "https://wa.me/33684211454"
+  [[params.homepage.social.icons]]
+    website = "linkedin"
+    url = "https://linkedin.com/in/nicolas-greliche/"
+  [[params.homepage.social.icons]]
+    website = "googlescholar"
+    url = "https://scholar.google.es/citations?user=XDIgmMMAAAAJ/"
+
+  [[params.homepage.social.icons]]
+    website = "github"
+    url = "https://github.com/nicogreu/"
+  [[params.homepage.social.icons]]
+    website = "orcid"
+    url = "https://orcid.org/0000-0003-0683-2257"
+  [[params.homepage.social.icons]]
+    website = "buymeacoffee"
+    url = "https://www.buymeacoffee.com/nicogreu/"
   [[params.homepage.social.icons]]
     website = "twitter"
     url = "https://twitter.com/"
-  [[params.homepage.social.icons]]
-    website = "linkedin"
-    url = "https://linkedin.com/in/"
   [[params.homepage.social.icons]]
     website = "xing"
     url = "https://www.xing.com/profile/"
   [[params.homepage.social.icons]]
     website = "telegram"
     url = "https://t.me/"
-  [[params.homepage.social.icons]]
-    website = "github"
-    url = "https://github.com/"
-  [[params.homepage.social.icons]]
-    website = "buymeacoffee"
-    url = "https://www.buymeacoffee.com/"
   [[params.homepage.social.icons]]
     website = "medium"
     url = "https://medium.com/"
@@ -221,17 +200,11 @@ DefaultContentLanguageInSubdir = true
     website = "tiktok"
     url = "https://tiktok.com"
   [[params.homepage.social.icons]]
-    website = "googlescholar"
-    url = "https://scholar.google.com/"
-  [[params.homepage.social.icons]]
     website = "mastodon"
     url = "https://joinmastodon.org"
   [[params.homepage.social.icons]]
     website = "youtube"
     url = "https://youtube.com"
-  [[params.homepage.social.icons]]
-    website = "instagram"
-    url = "https://instagram.com"
   [[params.homepage.social.icons]]
     website = "facebook"
     url = "https://facebook.com"
