@@ -31,8 +31,24 @@
   translation: "Whoops, this page doesn't exist. Move along. (404 error)"
 
 # Footer
-- id: poweredBy # Accepts HTML
-  translation: '<a href="https://gohugo.io">Hugo v{{ .Site.Hugo.Version }}</a> powered &nbsp;&bull;&nbsp; Theme <a href="https://github.com/halogenica/beautifulhugo">Beautiful Hugo</a> adapted from <a href="https://deanattali.com/beautiful-jekyll/">Beautiful Jekyll</a>'
+- id: builtWith
+  translation: "Built with"
+- id: adaptedFrom
+  translation: "adapted from"
+- id: legalNotice
+  translation: "Legal notice and privacy policy"
+
+# Social
+- id: member
+  translation: "Though I am self-employed, I am nevertheless a member of these two nice organisations for independent researchers :"
+- id: contactForm
+  translation: "Contact form"
+- id: fullName
+  translation: "Name"
+- id: emailAddress
+  translation: "Email address"
+- id: yourMessage
+  translation: "Message"
 
 # Navigation
 - id: toggleNavigation
@@ -45,6 +61,8 @@
   translation: "Search {{ .Site.Title }}"
 - id: gcseClose
   translation: "Close"
+- id: backToHome
+  translation: "Back to homepage"
 
 # Staticman
 - id: noComment

@@ -1,21 +1,24 @@
 
 
+<footer class="container px-4 mx-auto max-w-8xl text-sm font-light items-center flow-root">
 
-<footer class="container p-6 mx-auto flex justify-between items-center">
-  <span class="text-sm font-light">
-    {{ if (isset .Site.Params "copyright") }}
-    {{ .Site.Params.copyright | safeHTML }}
-    {{ else }}
-    {{ dateFormat "2006" now }} © {{ .Site.Title }}
-    {{ end }}
-  </span>
-  <span onclick="window.scrollTo({top: 0, behavior: 'smooth'})" class="p-1 cursor-pointer">
-    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5"
-      stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-      <path d="M18 15l-6 -6l-6 6h12" />
-    </svg>
-  </span>
+  <button class="rounded-b px-3 py-1 mb-2 bg-gray-900 float-right">
+    <a href='{{ "/" | relLangURL }}' class="text-center block font-medium pb-2 ">{{ i18n "backToHome" }}</a> 
+    <a href='{{ "/" | relLangURL }}'><img src="/favicon_white.svg" class="h-10 pb-2 mx-auto" viewBox="0 0 24 24" alt="Homepage"></a>
+  </button>
+
+  <div class="py-5 float-left">
+    {{ i18n "builtWith" }} <a href="https://gohugo.io/" target="_blank" style="text-decoration: underline">Hugo</a>, 
+    {{ i18n "adaptedFrom" }} <a href="https://github.com/apvarun/blist-hugo-theme" target="_blank" style="text-decoration: underline">Blist</a><br>
+    <a href='{{ "legal-notice" | relLangURL }}' style="text-decoration: underline"> {{ i18n "legalNotice" }} </a>
+  </div>
+  
+  <div class="text-center pb-2 float-left">
+    
+    
+  </div>  
+
+  
 </footer>
 
 

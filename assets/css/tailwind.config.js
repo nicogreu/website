@@ -17,11 +17,22 @@ module.exports = {
   },
   darkMode: "class",
   theme: {
+
     extend: {
       typography: (theme) => ({
         DEFAULT: {
           css: [
             {
+              color: theme('colors.blue.400'),
+              h1: {
+                color: theme('colors.red.400'),
+              },
+              h2: {
+                color: theme('colors.gray.200'),
+              },
+              a: {
+                color: theme('colors.green.200'),
+              },
               'code::before': {
                 content: '""',
               },
@@ -29,7 +40,7 @@ module.exports = {
                 content: '""',
               },
             }
-          ]
+          ],
         },
         dark: {
           css: [

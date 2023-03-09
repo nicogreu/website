@@ -18,25 +18,11 @@ DefaultContentLanguageInSubdir = true
       introJobs = "Statistician, Independent Researcher, Artist"
       introPhoto = "/Me tweaked.jpg"
       logo = "/logo3.png"
+
     [[languages.en.menu.main]]
-        name = "Blog"
-        url = "blog"
+        name = "My journey"
+        url = "/journey"
         weight = 1
-
-    [[languages.en.menu.main]]
-        name = "About"
-        url = "about/"
-        weight = 2
-
-    [[languages.en.menu.main]]
-        name = "Projects"
-        url = "tags"
-        weight = 3
-
-    [[languages.en.menu.main]]
-        name = "Top Post"
-        url = "/en/blog/emoji-support/"
-        weight = 4
 
   [languages.fr]
     contentDir = "content/fr" #French
@@ -49,31 +35,17 @@ DefaultContentLanguageInSubdir = true
       introPhoto = "/Me tweaked.jpg"
       logo = "/logo3.png"
     [[languages.fr.menu.main]]
-        name = "Blog"
-        url = "blog"
+        name = "Mon parcours"
+        url = "/journey"
         weight = 1
 
-    [[languages.fr.menu.main]]
-        name = "A propos"
-        url = "page/about/"
-        weight = 2
-
-    [[languages.fr.menu.main]]
-        name = "Tags"
-        url = "tags"
-        weight = 3
-
-    [[languages.fr.menu.main]]
-        name = "Top Post"
-        url = "/en/blog/emoji-support/"
-        weight = 4
 
 [params]
 
   custom_css = ["custom.css"]
 
   # Enable the darkmode toggle in header
-  darkModeToggle = true
+  darkModeToggle = false
   
   # Enable search in header
   enableSearch = false
@@ -99,7 +71,7 @@ DefaultContentLanguageInSubdir = true
   # Color for the intro details and social links block, not applicable for dark mode
   # Supported values: Any color from TailwindCSS default colors
   # Reference: https://tailwindcss.com/docs/customizing-colors
-  ascentColor = "bg-blue-100"
+  ascentColor = "bg-gray-900"
 
   # The page bundle that is shown on the front page
   frontBundle = "page"
@@ -114,7 +86,7 @@ DefaultContentLanguageInSubdir = true
 
   # Add support for Table of contents
   # Can be added to a page level also in markdown frontmatter
-  toc = true
+  toc = false
 
   # Hides the thumbnail in post view
   # Thumbnails in home and blog pages will still be shown
@@ -162,9 +134,11 @@ DefaultContentLanguageInSubdir = true
   [[params.homepage.social.icons]]
     website = "googlescholar"
     url = "https://scholar.google.es/citations?user=XDIgmMMAAAAJ/"
-
   [[params.homepage.social.icons]]
     website = "github"
+    url = "https://github.com/nicogreu/"
+  [[params.homepage.social.icons]]
+    website = "igdore"
     url = "https://github.com/nicogreu/"
   [[params.homepage.social.icons]]
     website = "orcid"
