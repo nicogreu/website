@@ -5,6 +5,8 @@ date: 2021-07-15
 description: "Digital paintings of real and fictional science and/or education figures"
 tags: ["emoji"]
 thumbnail: /Thinking_faces_website.jpg
+type: project
+draft: true
 ---
 
 Emoji can be enabled in a Hugo project in a number of ways.

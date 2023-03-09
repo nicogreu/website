@@ -1,10 +1,11 @@
 ---
-author: Katheryn Fox
-title: About Me
+author: Nicolas Greliche
+title: crish - materiel pour enseigner la Statistique
 date: 2021-07-15
-description:
+description: A comic guide on Conducting Researches that are Irresponsible, but Statistically High-class
 keywords: ["about-us", "about-hugo", "contact"]
-type: about
+type: project
+thumbnail: /crish_stat_for_thumbnail.jpg
 ---
 
 Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.

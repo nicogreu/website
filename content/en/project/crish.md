@@ -4,11 +4,11 @@ title: crish - the comic
 date: 2021-07-15
 description: A comic guide on Conducting Researches that are Irresponsible, but Statistically High-class
 keywords: ["about-us", "about-hugo", "contact"]
-type: page
+type: project
 thumbnail: https://crish.fr/user/pages/images/homepage/home.jpg
 ---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Ok, so... Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
 
 Hugo makes use of a variety of open source projects including:
 
