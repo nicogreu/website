@@ -1,11 +1,7 @@
 {{ define "main" }}
   {{- partial "intro.html" . -}}
-  <div class="text-center mb-8">
-    <a class="px-8 py-3 rounded transition-colors {{ .Site.Params.ascentColor | default "bg-pink-50" }}
-      text-gray-500 dark:bg-gray-900 dark:text-gray-400"
-      lang="{{ .Lang }}">
+  <div class="text-center font-light text-2xl text-gray-400 mt-4 -mb-4">
       {{ i18n "projects" }}
-    </a>
   </div>
   {{ $frontBundle := .Site.Params.frontBundle | default "blog" }}
   <div class="container p-6 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8">

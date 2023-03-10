@@ -29,7 +29,7 @@ San Francisco, CA 94107
 
 #### Licence:
 
-Le contenu de ce site est mis à disposition sous licence [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/").
+Outre les icônes et logos qui sont propriété des organismes correspondants, l'ensemble du contenu de ce site est mis à disposition sous licence [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/").
 
 
 #### Politique de confidentialité

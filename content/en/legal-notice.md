@@ -26,7 +26,7 @@ United States
 +1 (877) 448-4820
 
 #### License:
-The content of this site is licensed under a [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/").
+Apart from the icons and logos that are copyrighted by the corresponding organisms, the content of this site is licensed under a [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/").
 
 
 #### Privacy policy:

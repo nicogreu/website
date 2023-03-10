@@ -1,11 +1,15 @@
 ---
 author: Nicolas Greliche
-title: crish - la BD
-date: 2021-07-15
-description: Comment mener des Recherches Irresponsables avec un peu de Statistique et beaucoup trop d'Herbe
-keywords: ["about-us", "about-hugo", "contact"]
+title: crish
+titleStyle: font-crish italic text-2xl
+subtitle: '- la BD'
+date: 2023-03-10
+description: BD semi-fantastique parsemée d'un peu de Stat et de conseils en Méthodes de Recherche
+keywords: ["crish", "bd", "aventure", "methodes de recherche"]
 type: project
+weight: 4
 thumbnail: https://crish.fr/user/pages/images/homepage/home.jpg
+linkURL: https://crish.fr
 ---
 
 Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.

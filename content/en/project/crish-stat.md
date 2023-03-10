@@ -1,11 +1,15 @@
 ---
 author: Nicolas Greliche
-title: crish - the statistical education resources
-date: 2021-07-15
-description: A comic guide on Conducting Researches that are Irresponsible, but Statistically High-class
-keywords: ["about-us", "about-hugo", "contact"]
+title: crish
+titleStyle: font-crish italic text-2xl
+subtitle: '- the statistical education resources'
+date: 2023-03-10
+description: Material for Statistics Education, derived from the comic
+keywords: ["crish", "statistics", "education", "teaching"]
 type: project
+weight: 3
 thumbnail: /crish_stat_for_thumbnail.jpg
+linkURL: https://crish.fr
 ---
 
 Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
