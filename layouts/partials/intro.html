@@ -1,36 +1,40 @@
 <section class="{{ .Site.Params.ascentColor | default "bg-pink-50" }} dark:bg-gray-900">
-    <div class="container max-w-screen-lg mx-auto px-6 py-12 grid md:grid-cols-3 gap-8 lg:gap-16 items-center">
-        <img class="place-self-center w-64 md:w-100 rounded-lg shadow-sm" src="{{ .Site.Params.introPhoto }}" alt="{{ .Site.Title }}" />
+    <div class="container max-w-screen-lg mx-auto px-6 pt-12 pb-8 grid md:grid-cols-3 gap-8 lg:gap-16 items-center">
+        <img class="place-self-center w-64 md:w-96 rounded-lg shadow-sm" src="{{ .Site.Params.introPhoto }}" alt="{{ .Site.Title }}" />
       <div class ="md:col-span-2">
         <h1 class="text-5xl font-bold mb-1">{{ .Site.Params.introTitle | safeHTML}}</h1>
-        <h3 class="font-['Kggloria'] text-xl mb-4 px-2"> {{ .Site.Params.introAlias | safeHTML}}</h3>
-        <h2 class="text-2xl font-light text-gray-400 mb-4">{{ .Site.Params.introJobs | safeHTML}}</h1>
-        <p class="font-light text-lg mb-4">
+        <h3 class="font-crish text-xl mb-4 px-2"> {{ .Site.Params.introAlias | safeHTML}}</h3>
+        <h2 class="text-3xl font-light text-gray-400 mb-6">{{ .Site.Params.introJobs | safeHTML}}</h1>
+        <p class="font-light text-lg mb-6">
           I'm convinced that the best thing I can do for society 
           is carrying out the thoughts and projects I have in mind, and make the result available to everyone for free.
-          So that's what I try to do, hoping I can make a living out of it.
+          So that's what I try to do, hoping I'll manage to make a living out of it.
         </p>
-             
-        
-        
-        
-          <p class="text-lg font-light" style="color:#F3BB9C">You'd like to help ? 
-            <span class="font-bold" style="color:#FCD0AF">Share </span> with others the things I do,
-              send me <span class="font-bold" style="color:#FCD0AF">funding ideas</span>  
-              or make a
-              <span class="font-bold" style="color:#FCD0AF"> donation</span>.
-          </p>
-          <hr class="h-px my-2 mx-auto w-48 bg-gray-200 border-0 dark:bg-gray-700">
-          <div class="mb-4">
-            <p  class="text-lg font-light rounded-lg pb-2" style="color:#bbde73;">If you'd like to 
-              <span class="font-bold" style="color:#d0ed95">collaborate</span>
-              or contract me as an
-              <span class="font-bold" style="color:#d0ed95">artist</span>, 
-              <span class="font-bold" style="color:#d0ed95">popularizer</span>
-               or <span class="font-bold" style="color:#d0ed95">comics writer</span>,
-              <a href="#ContactSection" class=" font-medium underline text-lg">click here</a>!
-            </p>
-          </div>
+
+
+        <div class="text-xl font-light mb-4" style="color:#F3BB9C">You'd like to help?
+          <span class="font-bold indent-80 " style="color:#FCD0AF">Share </span> with others the things I do,
+            send me <span class="font-bold" style="color:#FCD0AF">funding ideas</span>  
+            or make a
+            <span class="font-bold" style="color:#FCD0AF"> <a href="https://ko-fi.com/nicogreu" class="underline" target="_blank">donation</a></span>.
+        </div>
+
+        <div class="text-xl font-light"  style="color:#bbde73">
+          <span> You'd like to 
+            <span class="font-bold" style="color:#d0ed95">collaborate</span>
+            or are interested in my skills as an
+            <span class="font-bold" style="color:#d0ed95">artist</span>, 
+            <span class="font-bold" style="color:#d0ed95">populariser</span>
+             or <span class="font-bold" style="color:#d0ed95">comic writer</span>?
+             <a href="#ContactSection" class="font-bold underline" style="color:#d0ed95">Send me a message</a>.
+        </div>
+
+
+      </div>
+      
+    </div>
+
+
 
         <!--button class="py-2 px-4 font-light rounded-lg bg-gray-700 hover:bg-gray-600 text-lg">{{ .Site.Params.introSoutien | safeHTML}}</button>
         <script src="https://liberapay.com/nicogreu/widgets/button.js"></script><noscript><a href="https://liberapay.com/nicogreu/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
@@ -38,6 +42,5 @@
         <form action="/url" method="GET">
           <input class=text-gray-400 type="text">
         </form-->
-      </div>
-    </div>
+
   </section>

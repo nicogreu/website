@@ -49,6 +49,8 @@
   translation: "Email address"
 - id: yourMessage
   translation: "Message"
+- id: sendMessage
+  translation: "or send me an email at"
 
 # Navigation
 - id: toggleNavigation

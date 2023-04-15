@@ -1,37 +1,34 @@
 <section class="{{ .Site.Params.ascentColor | default "bg-pink-50" }} dark:bg-gray-900">
-    <div class="container max-w-screen-lg mx-auto px-6 py-12 grid md:grid-cols-3 gap-8 lg:gap-16 items-center">
-        <img class="place-self-center w-64 md:w-100 rounded-lg shadow-sm" src="{{ .Site.Params.introPhoto }}" alt="{{ .Site.Title }}" />
+    <div class="container max-w-screen-lg mx-auto px-6 pt-12 pb-8 grid md:grid-cols-3 gap-8 lg:gap-16 items-center">
+        <img class="place-self-center w-64 md:w-96 rounded-lg shadow-sm" src="{{ .Site.Params.introPhoto }}" alt="{{ .Site.Title }}" />
       <div class ="md:col-span-2">
-        <h1 class="text-4xl font-bold mb-1">{{ .Site.Params.introTitle | safeHTML}}</h1>
-        <h3 class="font-['Kggloria'] text-xl mb-4 px-2"> {{ .Site.Params.introAlias | safeHTML}}</h3>
-        <h1 class="text-2xl font-light text-gray-400 mb-4">{{ .Site.Params.introJobs | safeHTML}}</h1>
-        <p class="font-light text-lg mb-4">
+        <h1 class="text-5xl font-bold mb-1">{{ .Site.Params.introTitle | safeHTML}}</h1>
+        <h3 class="font-crish text-xl mb-4 px-2"> {{ .Site.Params.introAlias | safeHTML}}</h3>
+        <h2 class="text-3xl font-light text-gray-400 mb-6">{{ .Site.Params.introJobs | safeHTML}}</h1>
+        <p class="font-light text-lg mb-6">
           J'ai la conviction que ce que je peux faire de mieux pour la société, 
-          c'est mener à bien les réflexions et projets que j'ai dans la tête. 
+          c'est mener à bien les réflexions et projets que j'ai dans la tête, puis les mettre à disposition de tous gratuitement. 
           Alors c'est ce que j'essaie de faire, en espérant réussir à en vivre.
         </p>
-        <hr class="h-px my-4 mx-auto w-48 bg-gray-200 border-0 dark:bg-gray-700">
-        <div class="mb-4">
-          <p  class="text-lg font-light rounded-lg text-blue-400 pb-2" style="color:#bbde73;">Vous souhaitez 
-            <span class="font-bold text-blue-300" style="color:#d0ed95">collaborer</span>
-            ou êtes intéressé par mes services d'
-            <span class="font-bold text-blue-300" style="color:#d0ed95">artiste</span>, 
-            <span class="font-bold text-blue-300" style="color:#d0ed95">vulgarisateur</span>,
-             ou <span class="font-bold text-blue-300" style="color:#d0ed95">scénariste</span>&nbsp?
-            <a href="#" class=" font-medium underline text-lg">Contactez-moi !</a>
-          </p>
+
+
+        <div class="text-xl font-light mb-4" style="color:#F3BB9C">Vous voulez m'aider ?
+          <span class="font-bold indent-80 " style="color:#FCD0AF">Partagez </span> ce que je fais,
+            envoyez-moi des <span class="font-bold" style="color:#FCD0AF">idées de financement</span>  
+            ou faites un
+            <span class="font-bold" style="color:#FCD0AF"> <a href="https://www.okpal.com/nicogreu" class="underline" target="_blank">don</a></span>.
         </div>
-        
-          <p class="text-lg font-light text-pink-400" style="color:#F3BB9C">Vous pouvez m'aider en
-            <span class="font-bold text-pink-300" style="color:#FCD0AF">partageant </span> ce que je fais,
-              en m'envoyant des idées d'<span class="font-bold text-pink-300" style="color:#FCD0AF">organismes ou appels à projets</span> 
-              qui pourraient me soutenir, ou en faisant un
-              <span class="font-bold text-pink-300" style="color:#FCD0AF"> don</span>
-              <a href="#" class="font-medium underline text-lg">ponctuel</a>
-              ou
-              <a href="#" class="font-medium text-blue-450 underline text-lg">récurrent</a>.
-          </p>
-        
+
+        <div class="text-xl font-light"  style="color:#bbde73">
+          <span> Vous souhaitez 
+            <span class="font-bold" style="color:#d0ed95">collaborer</span>
+            ou êtes intéressé par mes services d'
+            <span class="font-bold" style="color:#d0ed95">artiste</span>, 
+            <span class="font-bold" style="color:#d0ed95">vulgarisateur</span>
+             ou <span class="font-bold" style="color:#d0ed95">scénariste</span>?
+             <a href="#ContactSection" class="font-bold underline" style="color:#d0ed95">Envoyez-moi un message</a>.
+        </div>
+
         <!--button class="py-2 px-4 font-light rounded-lg bg-gray-700 hover:bg-gray-600 text-lg">{{ .Site.Params.introSoutien | safeHTML}}</button>
         <script src="https://liberapay.com/nicogreu/widgets/button.js"></script><noscript><a href="https://liberapay.com/nicogreu/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
         <a href="https://buy.stripe.com/cN24go5DogjA4U0145"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>

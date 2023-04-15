@@ -1,10 +1,12 @@
 {{ define "main" }}
   {{- partial "intro.html" . -}}
+  <section class="bg-gray-800">
+
   <div class="text-center font-light text-2xl text-gray-400 mt-4 -mb-4">
       {{ i18n "projects" }}
   </div>
   {{ $frontBundle := .Site.Params.frontBundle | default "blog" }}
-  <div class="container p-6 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8">
+  <div class="container p-6 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8 ">
     {{ range first 6 (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle)  }}
       {{- partial "blog-card.html" . -}}
     {{ end }}
@@ -18,6 +20,7 @@
       {{ i18n "morePosts" }}
     </a>
   </div>
+</section>
   {{ end }}
 
   {{- partial "social.html" . -}}

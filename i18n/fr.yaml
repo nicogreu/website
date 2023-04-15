@@ -75,7 +75,8 @@
   translation: "Adresse email"
 - id: yourMessage
   translation: "Message"
-
+- id: sendMessage
+  translation: "ou envoyez-moi un email à"
 
 
 # Navigation

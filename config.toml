@@ -34,6 +34,7 @@ DefaultContentLanguageInSubdir = true
       introJobs = "Statisticien, Chercheur indépendant, Artiste"
       introPhoto = "/Me tweaked.jpg"
       logo = "/logo3.png"
+      
     [[languages.fr.menu.main]]
         name = "Mon parcours"
         url = "/journey"
@@ -129,6 +130,9 @@ DefaultContentLanguageInSubdir = true
     website = "whatsapp"
     url = "https://wa.me/33684211454"
   [[params.homepage.social.icons]]
+    website = "mastodon"
+    url = "https://mastodon.social/@nicogreu"
+  [[params.homepage.social.icons]]
     website = "linkedin"
     url = "https://linkedin.com/in/nicolas-greliche/"
   [[params.homepage.social.icons]]
@@ -136,9 +140,6 @@ DefaultContentLanguageInSubdir = true
     url = "https://scholar.google.es/citations?user=XDIgmMMAAAAJ/"
   [[params.homepage.social.icons]]
     website = "github"
-    url = "https://github.com/nicogreu/"
-  [[params.homepage.social.icons]]
-    website = "igdore"
     url = "https://github.com/nicogreu/"
   [[params.homepage.social.icons]]
     website = "orcid"
@@ -173,9 +174,6 @@ DefaultContentLanguageInSubdir = true
   [[params.homepage.social.icons]]
     website = "tiktok"
     url = "https://tiktok.com"
-  [[params.homepage.social.icons]]
-    website = "mastodon"
-    url = "https://joinmastodon.org"
   [[params.homepage.social.icons]]
     website = "youtube"
     url = "https://youtube.com"
