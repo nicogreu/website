@@ -9,7 +9,7 @@ keywords: ["crish", "statistics", "education", "teaching"]
 type: project
 weight: 3
 thumbnail: /crish_stat_for_thumbnail.jpg
-linkURL: https://crish.fr
+linkURL: https://crish.fr/educ/lecons
 ---
 
 Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.

@@ -20,7 +20,7 @@ DefaultContentLanguageInSubdir = true
       logo = "/logo3.png"
 
     [[languages.en.menu.main]]
-        name = "My journey"
+        name = ""
         url = "/journey"
         weight = 1
 
@@ -34,9 +34,9 @@ DefaultContentLanguageInSubdir = true
       introJobs = "Statisticien, Chercheur indépendant, Artiste"
       introPhoto = "/Me tweaked.jpg"
       logo = "/logo3.png"
-      
+
     [[languages.fr.menu.main]]
-        name = "Mon parcours"
+        name = ""
         url = "/journey"
         weight = 1
 

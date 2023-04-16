@@ -1,7 +1,8 @@
 <div class="p-2">
   {{ if .Params.thumbnail }}
   <div class="relative">
-    <a href="{{ .Permalink }}">
+    <!--a href="{{ .Permalink }}"-->
+    <a href="{{ .Params.linkURL }}" target="_blank">  
       <img src="{{ .Params.thumbnail }}" alt="{{ .Params.title }}" class="rounded-lg shadow-sm w-full h-52 object-cover" />
     </a>
     {{ if not (or (or .Site.Params.hideMeta .Params.hideMeta) false) }}
@@ -12,11 +13,12 @@
     {{ end }}
   </div>
   {{ end }}
-  <a href="{{ .Permalink }}">
+  <!--a href="{{ .Permalink }}"-->
+  <a href="{{ .Params.linkURL }}" target="_blank"> 
     <div class="my-2 text-xl font-semibold"> <span class={{ .Params.titleStyle}}>{{ .Params.title }} </span> {{ .Params.subtitle }}</div>
     <div>{{ .Params.description }}</div>
   </a>
 {{ if .Params.linkURL }}
-<p class="text-left pt-2 text-lg font-bold italic"> <a class="text-gray-500" href={{ .Params.linkURL }} target="_blank" >--> go to dedicated website</a></p>
+<!--p class="text-left pt-2 text-lg font-bold italic"> <a class="text-gray-500" href={{ .Params.linkURL }} target="_blank" >-> go to dedicated website</a></p>-->
 {{ end }}
 </div>
