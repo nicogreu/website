@@ -2,9 +2,9 @@
 author: Nicolas Greliche
 title: Some Intriguing Works That Read Like Comics
 titleStyle: 
-subtitle: '- Estetika: The European Journal of Aesthetics'
+subtitle:
 date: 2025-03-19
-description: An article on the philosophy of comics
+description: A philosophy article published in Estetika, The European Journal of Aesthetics
 keywords: ["about-us", "about-hugo", "contact"]
 type: project
 weight: 5
