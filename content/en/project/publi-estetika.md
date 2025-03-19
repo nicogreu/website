@@ -8,7 +8,7 @@ description: An article on the philosophy of comics
 keywords: ["about-us", "about-hugo", "contact"]
 type: project
 weight: 5
-thumbnail: /Publication_Estetika.png
+thumbnail: /Publi_Estetika.png
 linkURL: https://estetikajournal.org/articles/10.33134/eeja.473
 ---
 

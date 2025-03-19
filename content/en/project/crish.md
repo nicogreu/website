@@ -1,6 +1,6 @@
 ---
 author: Nicolas Greliche
-title: crish Blop
+title: crish
 titleStyle: font-crish italic text-2xl
 subtitle: '- the comic'
 date: 2023-03-10
