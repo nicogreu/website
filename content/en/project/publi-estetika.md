@@ -4,7 +4,7 @@ title: Some Intriguing Works That Read Like Comics
 titleStyle: 
 subtitle:
 date: 2025-03-19
-description: A philosophy article published in Estetika, The European Journal of Aesthetics
+description: 'A philosophy article published in Estetika: The European Journal of Aesthetics'
 keywords: ["about-us", "about-hugo", "contact"]
 type: project
 weight: 5
