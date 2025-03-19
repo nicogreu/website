@@ -1,0 +1,8 @@
+git remote set-url origin git@github.com:nicogreu/nicogreu.github.io.git
+git add .
+git commit -m "blah blah"
+git push
+
+
+git remote show origin
+git remote -v
