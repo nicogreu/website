@@ -6,6 +6,7 @@ description: Watercolor paintings
 keywords: ["watercolor", "painting"]
 type: about
 hideMeta: true
+draft: true
 ---
 
 Some small paintings I made in watercolor:
