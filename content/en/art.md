@@ -5,7 +5,6 @@ date: 2023-06-05
 description: Watercolor paintings
 keywords: ["watercolor", "painting"]
 type: about
-hideMeta: true
 draft: true
 ---
 
