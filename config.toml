@@ -24,6 +24,11 @@ DefaultContentLanguageInSubdir = true
         url = "/journey"
         weight = 1
 
+    [[languages.en.menu.main]]
+        name = "Watercolor paintings"
+        url = "/watercolor"
+        weight = 2
+
   [languages.fr]
     contentDir = "content/fr" #French
     weight = 1

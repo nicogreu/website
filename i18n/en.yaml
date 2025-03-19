@@ -40,7 +40,7 @@
 
 # Social
 - id: member
-  translation: "Though I am self-employed, I am nevertheless a member of these two nice organisations for independent researchers :"
+  translation: "Though I am self-employed, I am nevertheless a member of the following nice organisation for independent researchers :"
 - id: contactForm
   translation: "Contact form"
 - id: fullName
