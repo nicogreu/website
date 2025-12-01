@@ -27,17 +27,19 @@ DefaultContentLanguageInSubdir = true
     [[languages.en.menu.main]]
         name = "Advising"
         url = "/Advising"
-        weight = 1
-
-    [[languages.en.menu.main]]
-        name = "Art"
-        url = "/watercolor"
-        weight = 1
+        weight = 2
 
     [[languages.en.menu.main]]
         name = "Outreach Projects"
         url = "/watercolor"
-        weight = 1
+        weight = 3
+        
+    [[languages.en.menu.main]]
+        name = "Art"
+        url = "/watercolor"
+        weight = 4
+
+
 
     [[languages.en.menu.main]]
         name = ""
