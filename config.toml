@@ -15,9 +15,29 @@ DefaultContentLanguageInSubdir = true
     [languages.en.params]
       introTitle = "Nicolas Greliche"
       introAlias = "alias greu & duduq"
-      introJobs = "Statistician, Independent Researcher, Artist"
+      introJobs = "Statistician, Philosopher, Artist"
       introPhoto = "/Me tweaked.jpg"
       logo = "/logo3.png"
+
+    [[languages.en.menu.main]]
+        name = "Research"
+        url = "/Research"
+        weight = 1
+
+    [[languages.en.menu.main]]
+        name = "Advising"
+        url = "/Advising"
+        weight = 1
+
+    [[languages.en.menu.main]]
+        name = "Art"
+        url = "/watercolor"
+        weight = 1
+
+    [[languages.en.menu.main]]
+        name = "Outreach Projects"
+        url = "/watercolor"
+        weight = 1
 
     [[languages.en.menu.main]]
         name = ""
