@@ -1,8 +1,22 @@
-git remote set-url origin git@github.com:nicogreu/nicogreu.github.io.git
+
+--- If nothing changed, these steps should work:
+
+cd website/
+npm start
 git add .
-git commit -m "blah blah"
+git commit -m "adding photo"
+git push
+hugo -t blist
+
+cd public/
+git add .
+git commit -m "blahblah"
 git push
 
+-- If issues, pick stuff in there:
 
-git remote show origin
-git remote -v
+cd website/
+git remote add origin git@github.com:nicogreu/website.git
+
+cd public/
+git remote set-url origin git@github.com:nicogreu/nicogreu.github.io.git
