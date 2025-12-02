@@ -30,7 +30,7 @@ DefaultContentLanguageInSubdir = true
         weight = 2
 
     [[languages.en.menu.main]]
-        name = "Outreach Projects"
+        name = "Outreach"
         url = "/watercolor"
         weight = 3
 
