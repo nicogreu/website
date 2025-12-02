@@ -1,6 +1,6 @@
 baseURL = "https://nicogreu.github.io/"
 languageCode = "en-us"
-#title = "Nicolas Greliche site"
+title = "Nicolas Greliche"
 metaDataFormat = "yaml"
 theme = "blist"
 
@@ -33,7 +33,7 @@ DefaultContentLanguageInSubdir = true
         name = "Outreach Projects"
         url = "/watercolor"
         weight = 3
-        
+
     [[languages.en.menu.main]]
         name = "Art"
         url = "/watercolor"
