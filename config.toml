@@ -10,7 +10,7 @@ DefaultContentLanguageInSubdir = true
 [languages]
   [languages.en]
     contentDir = "content/en" #English
-    weight = 1
+    weight = 0
     languageName = "English"
     [languages.en.params]
       introTitle = "Nicolas Greliche"
@@ -20,51 +20,40 @@ DefaultContentLanguageInSubdir = true
       logo = "/logo3.png"
 
     [[languages.en.menu.main]]
-        name = "About me"
+        name = "About"
         url = "/Research"
         weight = 1
 
     [[languages.en.menu.main]]
         name = "Research"
         url = "/Research"
-        weight = 1
+        weight = 2
 
     [[languages.en.menu.main]]
         name = "Collaboration"
         url = "/Advising"
-        weight = 2
+        weight = 3
 
     [[languages.en.menu.main]]
         name = "Outreach"
         url = "/watercolor"
-        weight = 3
+        weight = 4
 
     [[languages.en.menu.main]]
         name = "Art"
         url = "/watercolor"
-        weight = 4
+        weight = 5
 
     [[languages.en.menu.main]]
         name = "CV"
         url = "/Advising"
-        weight = 5
+        weight = 6
 
     [[languages.en.menu.main]]
         name = "Contact"
         url = "/watercolor"
-        weight = 6
+        weight = 7
 
-
-
-    [[languages.en.menu.main]]
-        name = ""
-        url = "/journey"
-        weight = 1
-
-    [[languages.en.menu.main]]
-        name = ""
-        url = "/watercolor"
-        weight = 2
 
   [languages.fr]
     contentDir = "content/fr" #French
