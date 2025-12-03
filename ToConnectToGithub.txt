@@ -27,3 +27,7 @@ git remote set-url origin git@github.com:nicogreu/nicogreu.github.io.git
 -- modifs:
 removed dark:bg-gray-900 in 
 section class="{{ .Site.Params.ascentColor | default "bg-white" }} dark:bg-gray-900"
+
+
+, a semi-fantastic adventure filled with absurd humour
+          and philosopho-educational content on statistics and the research world
