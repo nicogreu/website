@@ -3,6 +3,8 @@
 
 cd website/
 npm start
+
+cd website/
 git add .
 git commit -m "adding photo"
 git push
@@ -20,3 +22,8 @@ git remote add origin git@github.com:nicogreu/website.git
 
 cd public/
 git remote set-url origin git@github.com:nicogreu/nicogreu.github.io.git
+
+
+-- modifs:
+removed dark:bg-gray-900 in 
+section class="{{ .Site.Params.ascentColor | default "bg-white" }} dark:bg-gray-900"
