@@ -3,4 +3,5 @@
 	url = https://github.com/apvarun/blist-hugo-theme.git
 [submodule "public"]
 	path = public
-	url = https://github.com/nicogreu/nicogreu.github.io.git
+	url = git@github.com:nicogreu/nicogreu.github.io.git
+	branch = main
