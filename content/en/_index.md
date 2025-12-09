@@ -4,7 +4,7 @@ introPhoto: "/Me-tweaked.jpg" # Define the specific image path
 showExtraContent: false 
 ---
 
-<strong>I .... am an independent <em>statistician-turned-philosopher</em> based in Madrid.</strong><br><br>
+<strong>I am an independent <em>statistician-turned-philosopher</em> based in Madrid.</strong><br><br>
 
 I started my career as an economic analyst, hold a <strong>PhD in biostatistics</strong>, and have spent more than a decade advising students and researchers across most fields of study on <strong>research design</strong> and statistical methodology.<br><br>
 
