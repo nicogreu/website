@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Nicolas Greliche</title>
+    <link>https://nicogreu.github.io/en/project/</link>
+    <description>Recent content in Projects on Nicolas Greliche</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 19 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://nicogreu.github.io/en/project/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>crish</title>
+      <link>https://nicogreu.github.io/en/project/crish-stat/</link>
+      <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://nicogreu.github.io/en/project/crish-stat/</guid>
+      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Hugo makes use of a variety of open source projects including:
+https://github.com/yuin/goldmark https://github.</description>
+    </item>
+    
+    <item>
+      <title>crish</title>
+      <link>https://nicogreu.github.io/en/project/crish/</link>
+      <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://nicogreu.github.io/en/project/crish/</guid>
+      <description>I believe that in the mind of most people, a fiction work that is purposely &amp;ldquo;educational&amp;rdquo; inevitably comes with an uninteresting - and probably childish - story. This rather strong association makes sense when we look at what exists. But I don&amp;rsquo;t think it has to be that way.
+The start of the journey A few years ago, convinced that educational fiction was not incompatible with a good story, I decided to have a go at proving my point.</description>
+    </item>
+    
+    <item>
+      <title>Some Intriguing Works That Read Like Comics</title>
+      <link>https://nicogreu.github.io/en/project/publi-estetika/</link>
+      <pubDate>Wed, 19 Mar 2025 00:00:00 +0000</pubDate>
+      
+      <guid>https://nicogreu.github.io/en/project/publi-estetika/</guid>
+      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Hugo makes use of a variety of open source projects including:
+https://github.com/yuin/goldmark https://github.</description>
+    </item>
+    
+  </channel>
+</rss>
