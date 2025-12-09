@@ -12,69 +12,91 @@ DefaultContentLanguageInSubdir = true
     contentDir = "content/en" #English
     weight = 0
     languageName = "English"
-    [languages.en.params]
-      introTitle = "Nicolas Greliche"
-      introAlias = "alias greu & duduq"
-      introJobs = "Statistician, Philosopher, Artist"
-      introPhoto = "/Me tweaked.jpg"
-      logo = "/logo3.png"
 
     [[languages.en.menu.main]]
         name = "About"
-        url = "/Research"
+        url = "/"
         weight = 1
 
     [[languages.en.menu.main]]
         name = "Research"
-        url = "/Research"
+        url = "/research/"
         weight = 2
 
     [[languages.en.menu.main]]
         name = "Collaboration"
-        url = "/Advising"
+        url = "/collaboration/"
         weight = 3
 
     [[languages.en.menu.main]]
         name = "Outreach"
-        url = "/watercolor"
+        url = "/outreach/"
         weight = 4
 
     [[languages.en.menu.main]]
         name = "Art"
-        url = "/watercolor"
+        url = "/art/"
         weight = 5
 
     [[languages.en.menu.main]]
         name = "CV"
-        url = "/Advising"
+        url = "/cv/"
         weight = 6
 
     [[languages.en.menu.main]]
         name = "Contact"
-        url = "/watercolor"
+        url = "/contact/"
         weight = 7
 
 
   [languages.fr]
     contentDir = "content/fr" #French
-    weight = 1
+    weight = 0
     languageName = "Francais"
     [languages.fr.params]
-      introTitle = "Nicolas Greliche"
-      introAlias = "alias greu & duduq"
-      introJobs = "Statisticien, Chercheur indépendant, Artiste"
-      introPhoto = "/Me tweaked.jpg"
-      logo = "/logo3.png"
 
     [[languages.fr.menu.main]]
-        name = ""
-        url = "/journey"
+        name = "À propos"
+        url = "/"
         weight = 1
+
+    [[languages.fr.menu.main]]
+        name = "Recherche"
+        url = "/research/"
+        weight = 2
+
+    [[languages.fr.menu.main]]
+        name = "Collaboration"
+        url = "/collaboration/"
+        weight = 3
+
+    [[languages.fr.menu.main]]
+        name = "Diffusion"
+        url = "/outreach/"
+        weight = 4
+
+    [[languages.fr.menu.main]]
+        name = "Art"
+        url = "/art/"
+        weight = 5
+
+    [[languages.fr.menu.main]]
+        name = "CV"
+        url = "/cv/"
+        weight = 6
+
+    [[languages.fr.menu.main]]
+        name = "Contact"
+        url = "/contact/"
+        weight = 7
 
 
 [params]
 
   custom_css = ["custom.css"]
+
+  introPhoto = "/Me tweaked.jpg"
+  logo = "/logo3.png"
 
   # Enable the darkmode toggle in header
   darkModeToggle = true
@@ -155,6 +177,9 @@ DefaultContentLanguageInSubdir = true
 
 
   [[params.homepage.social.icons]]
+    website = "PhilPeople"
+    url = "https://philpeople.org/profiles/nicolas-greliche"
+  [[params.homepage.social.icons]]
     website = "instagram"
     url = "https://www.instagram.com/duduqdrawstuff/"
   [[params.homepage.social.icons]]
@@ -215,10 +240,6 @@ DefaultContentLanguageInSubdir = true
     website = "behance"
     url = "https://behance.net"
 
-[[menu.main]]
-  name = "About"
-  url = "/about"
-
 [build]
   writeStats = true
 
@@ -232,3 +253,16 @@ DefaultContentLanguageInSubdir = true
   [markup.goldmark.renderer]
     # Enable to include inline HTML
     unsafe = true
+  [markup.goldmark.parser]
+    wrapLineLength = 0
+    hardWraps = false
+    autoHeadingID = true
+
+# ======================================
+# URL Settings (Permalinks)
+# ======================================
+# This ensures static pages (like Research, CV) have clean URLs (e.g., /research/)
+# It also ensures blog posts go under /posts/
+[permalinks]
+page = "/:slug/"
+posts = "/posts/:slug/"

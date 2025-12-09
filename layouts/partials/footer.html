@@ -1,12 +1,12 @@
 
 <footer class="bg-white dark:bg-gray-800">
   <div class="container px-4 mx-auto max-w-8xl text-sm font-light items-center flow-root">
-    <button class="rounded-b px-3 py-1 mb-2 bg-white dark:bg-gray-900 dark:text-white float-right">
+<!--     <button class="rounded-b px-3 py-1 mb-2 bg-white dark:bg-gray-900 dark:text-white float-right">
       <a href='{{ "/" | relLangURL }}' class="text-center block font-medium pb-2 ">{{ i18n "backToHome" }}</a> 
       <a href='{{ "/" | relLangURL }}'><img src="/favicon_white.svg" class="h-10 pb-2 mx-auto" viewBox="0 0 24 24" alt="Homepage"></a>
-    </button>
+    </button> -->
   
-    <div class="py-5 float-left">
+    <div class="py-5 text-center">
       {{ i18n "builtWith" }} <a href="https://gohugo.io/" target="_blank" style="text-decoration: underline">Hugo</a>, 
       {{ i18n "adaptedFrom" }} <a href="https://github.com/apvarun/blist-hugo-theme" target="_blank" style="text-decoration: underline">Blist</a><br>
       <a href='{{ "legal-notice" | relLangURL }}' style="text-decoration: underline"> {{ i18n "legalNotice" }} </a>
@@ -15,12 +15,9 @@
 
 </footer>
 
-
 {{ if .Site.Params.enableSearch }}
 {{- partial "search-ui.html" . -}}
 {{ end }}
-
-{{ template "_internal/google_analytics.html" . }}
 
 {{ if ge (len .Site.Languages) 2 }}
 <script>

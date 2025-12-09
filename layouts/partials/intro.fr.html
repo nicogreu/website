@@ -1,33 +1,13 @@
-<section class="{{ .Site.Params.ascentColor | default "bg-pink-50" }} dark:bg-gray-900">
-    <div class="container max-w-screen-lg mx-auto px-6 pt-12 pb-8 grid md:grid-cols-3 gap-8 lg:gap-16 items-center">
-        <img class="place-self-center w-64 md:w-96 rounded-lg shadow-sm" src="{{ .Site.Params.introPhoto }}" alt="{{ .Site.Title }}" />
-      <div class ="md:col-span-2">
-        <h1 class="text-5xl font-bold mb-1">{{ .Site.Params.introTitle | safeHTML}}</h1>
-        <h3 class="font-crish text-xl mb-4 px-2"> {{ .Site.Params.introAlias | safeHTML}}</h3>
-        <h2 class="text-3xl font-light text-gray-400 mb-6">{{ .Site.Params.introJobs | safeHTML}}</h1>
-        <p class="font-light text-lg mb-6">
-          J'ai la suuuper conviction que ce que je peux faire de mieux pour la société, 
-          c'est mener à bien les réflexions et projets que j'ai dans la tête, puis les mettre à disposition de tous gratuitement. 
-          Alors c'est ce que j'essaie de faire, en espérant réussir à en vivre.
-        </p>
+{{ $page := . }}
+<section class="{{ .Site.Params.ascentColor | default "bg-white" }} dark:bg-gray-900">
+    <div class="container max-w-3xl mx-auto px-6 pt-12 pb-8 grid md:grid-cols-2 gap-8">
+        <img class="justify-self-center w-64 md:w-96 rounded-lg shadow-sm" src="{{ $page.Params.introPhoto | default (.Site.Params.defaultIntroPhoto) }}" alt="{{ $page.Title }}" />
+      <div class ="md:col-span-1 font-light text-lg mb-6">
+        {{ $page.Content }}
 
+      </div>
 
-        <div class="text-xl font-light mb-4" style="color:#F3BB9C">Vous voulez m'aider ?
-          <span class="font-bold indent-80 " style="color:#FCD0AF">Partagez </span> ce que je fais,
-            envoyez-moi des <span class="font-bold" style="color:#FCD0AF">idées de financement</span>  
-            ou faites un
-            <span class="font-bold" style="color:#FCD0AF"> <a href="https://www.okpal.com/nicogreu" class="underline" target="_blank">don</a></span>.
-        </div>
-
-        <div class="text-xl font-light"  style="color:#bbde73">
-          <span> Vous souhaitez 
-            <span class="font-bold" style="color:#d0ed95">collaborer</span>
-            ou êtes intéressé par mes services d'
-            <a href="https://krita-artists.org/u/nicogreu/activity/portfolio" class="underline" target="_blank"><span class="font-bold" style="color:#d0ed95">artiste</span></a>, 
-            <a href="https://crish.fr/partie1/40" class="underline" target="_blank"><span class="font-bold" style="color:#d0ed95">vulgarisateur</span></a>
-             ou <span class="font-bold" style="color:#d0ed95">scénariste</span>?
-             <a href="#ContactSection" class="font-bold underline" style="color:#d0ed95">Envoyez-moi un message</a>.
-        </div>
+    </div>
 
         <!--button class="py-2 px-4 font-light rounded-lg bg-gray-700 hover:bg-gray-600 text-lg">{{ .Site.Params.introSoutien | safeHTML}}</button>
         <script src="https://liberapay.com/nicogreu/widgets/button.js"></script><noscript><a href="https://liberapay.com/nicogreu/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
@@ -35,6 +15,5 @@
         <form action="/url" method="GET">
           <input class=text-gray-400 type="text">
         </form-->
-      </div>
-    </div>
+
   </section>

@@ -1,20 +1,27 @@
 
 --- If nothing changed, these steps should work:
 
+# to make modifs and see them locally instantly (using the url given by the command hugo server):
+cd website/
+hugo server (...or hugo server --ignoreCache --disableFastRender)
+
+
+# bring the changes to the github page
 cd website/
 npm start
 
 cd website/
 git add .
-git commit -m "adding photo"
+git commit -m "blahblah"
 git push
 hugo -t blist
 
-cd public/
+cd website/public/
 git add .
 git commit -m "blahblah"
 git push
 
+My
 -- If issues, pick stuff in there:
 
 cd website/
@@ -31,3 +38,22 @@ section class="{{ .Site.Params.ascentColor | default "bg-white" }} dark:bg-gray-
 
 , a semi-fantastic adventure filled with absurd humour
           and philosopho-educational content on statistics and the research world
+
+          
+              [[languages.en.menu.main]]
+        name = "About"
+        url = "/Reseblaharch"
+        weight = 1
+        
+        
+        
+        
+0 - 120
+500 - 200
+
+Afficheur d'heure au plafond. Pas besoin radio reveil.
+
+David Gilmore - cofret album cd+dvd
+
+Depeche mode - cd/ album
+landau pour rose - love letter stitch.
