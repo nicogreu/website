@@ -5,7 +5,7 @@ showExtraContent: false
 layout: small_image
 ---
 
-Mon travail de recherche porte principalement sur **comprendre comment nous pouvons apprendre à partir de données**, et sur comment le <em>raisonnement statistique informel</em> peut éclairer certaines questions clés en épistémologie, théorie de la décision et philosophie des sciences.
+Mon travail de recherche porte principalement sur **comprendre comment nous pouvons apprendre à partir de données**, et comment le <em>raisonnement statistique informel</em> peut éclairer certaines questions clés en épistémologie, théorie de la décision et philosophie des sciences.
 <br><br>
 
 Mes autres préoccupations de recherche incluent des contributions à la branche niche de la **philosophie de la bande dessinée** et au domaine interdisciplinaire de la **philosophie expérimentale**.

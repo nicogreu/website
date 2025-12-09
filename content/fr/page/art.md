@@ -4,7 +4,7 @@ introPhoto: "/art3.jpg"
 layout: small_image
 ---
 
-Je crois que j'ai toujours eu une certaine aisance à produire des réfléxions philosophiques. C'est loin d'être la même chose pour ce qui est de l'art, où j'ai dû énormément travailler pour passer de dessiner comme <a href="#" onclick="openImageModal(); return false;">ça</a> à 30 ans, à pouvoir produire ce que vous pouvez voir [ici](https://krita-artists.org/u/nicogreu/activity/portfolio) or <a href="https://www.instagram.com/duduqdrawstuff/" target="_blank">ici</a>.<br><br>
+Je crois que j'ai toujours eu une certaine aisance à produire des réfléxions philosophiques. C'est loin d'être la même chose pour ce qui est de l'art, où j'ai dû énormément travailler pour passer de <a href="#" onclick="openImageModal(); return false;">ce niveau de dessin</a> à 30 ans, à pouvoir produire ce que vous pouvez voir [ici](https://krita-artists.org/u/nicogreu/activity/portfolio) or <a href="https://www.instagram.com/duduqdrawstuff/" target="_blank">ici</a>.<br><br>
 
 
 Si vous avez un **projet nécessitant des illustrations numériques** et pensez que je pourrais être un bon candidat, n'hésitez pas à me contacter.
