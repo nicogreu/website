@@ -1,0 +1,112 @@
+<header class="container mx-auto p-6 flex justify-between lg:justify-center items-start md:items-center gap-8 relative">
+
+  <a href="{{ .Site.Home.Permalink }}" class="font-medium text-2xl pb-1 items-start gap-3">
+    {{ if .Site.Params.logo }}
+    <!-- <img src="{{ .Site.Params.logo }}" alt="{{ .Site.Title }}" class="h-8 max-w-full" /> -->
+    {{ .Site.Title }}
+    {{ else }}
+    {{ .Site.Title }}
+    {{ end }}
+  </a>
+  <button class="mobile-menu-button md:hidden" aria-label="Menu">
+    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+      <line x1="4" y1="8" x2="20" y2="8" />
+      <line x1="4" y1="16" x2="20" y2="16" />
+    </svg>
+  </button>
+
+ 
+  <ul class="mobile-menu font-light z-10 py-6 px-4 rounded pb-6 md:p-0 top-full right-0 w-auto absolute md:relative hidden md:flex flex-col md:flex-row md:items-center gap-3 md:gap-4 lg:gap-6 bg-white dark:bg-gray-800">
+    {{ $current := $.RelPermalink }}
+    {{ range .Site.Menus.main }}
+      {{ $link := (.URL | relLangURL) }}
+      <li class="{{ if eq $link $current }}font-medium{{ end }}">
+        <a href="{{ $link }}">{{ .Name }}</a>
+      </li>
+    {{ end }}  
+
+
+
+    
+    <li class="relative cursor-pointer">
+      <span class="language-switcher flex items-center gap-2 px-1 py-1 rounded dark:hover:bg-gray-700 transition-colors">
+        <!-- globe icon -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24"
+          stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <circle cx="12" cy="12" r="9" />
+          <line x1="3.6" y1="9" x2="20.4" y2="9" />
+          <line x1="3.6" y1="15" x2="20.4" y2="15" />
+          <path d="M11.5 3a17 17 0 0 0 0 18" />
+          <path d="M12.5 3a17 17 0 0 1 0 18" />
+        </svg>
+        <!-- arrow -->
+        <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14"
+          viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
+          stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <path d="M18 15l-6 -6l-6 6h12" transform="rotate(180 12 12)" />
+        </svg>
+      </span>
+
+      <div class="language-dropdown absolute top-full mt-2 left-0 flex-col gap-2 bg-white dark:bg-gray-900 dark:text-white z-10 hidden rounded shadow-md min-w-[6rem]">
+        {{ if .IsTranslated }}
+          {{ range $.Translations }}
+            <a 
+              class="px-3 py-2 rounded hover:text-yellow-800 dark:hover:bg-gray-700 transition-colors block text-sm"
+              title="{{ .Language.LanguageName }}" 
+              href="{{ .Permalink }}"
+            >
+              {{ .Language.LanguageName }}
+            </a>
+          {{ end }}
+        {{ else }}
+          {{ if eq .Site.Language.Lang "en" }}
+            <a class="px-3 py-2 rounded dark:hover:bg-gray-700 transition-colors block text-sm" href="/">Français</a>
+          {{ else }}
+            <a class="px-3 py-2 rounded dark:hover:bg-gray-700 transition-colors block text-sm" href="/">English</a>
+          {{ end }}
+        {{ end }}
+      </div>
+    </li>
+
+    
+    
+
+    {{ if .Site.Params.enableSearch }}
+    <li class="w-full text-left">
+      <span class="open-search inline-block cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <circle cx="10" cy="10" r="7" />
+          <line x1="21" y1="21" x2="15" y2="15" />
+        </svg>
+      </span>
+    </li>
+    {{ end }}
+
+    {{ if .Site.Params.darkModeToggle }}
+    <li class="w-full text-left">
+      <span class="toggle-dark-mode inline-block align-middle cursor-pointer">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5"
+          stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+          <circle cx="12" cy="12" r="3" />
+          <line x1="12" y1="5" x2="12" y2="5.01" />
+          <line x1="17" y1="7" x2="17" y2="7.01" />
+          <line x1="19" y1="12" x2="19" y2="12.01" />
+          <line x1="17" y1="17" x2="17" y2="17.01" />
+          <line x1="12" y1="19" x2="12" y2="19.01" />
+          <line x1="7" y1="17" x2="7" y2="17.01" />
+          <line x1="5" y1="12" x2="5" y2="12.01" />
+          <line x1="7" y1="7" x2="7" y2="7.01" />
+        </svg>
+      </span>
+    </li>
+    {{ end }}
+  </ul>
+
+
+</header>

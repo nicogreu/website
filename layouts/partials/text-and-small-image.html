@@ -1,0 +1,21 @@
+{{ $page := . }}
+<section class="{{ .Site.Params.ascentColor | default "bg-white" }} dark:bg-gray-900">
+    <div class="container max-w-3xl mx-auto px-6 pt-12 pb-8 grid md:grid-cols-3 gap-8">
+        <img class="justify-self-center w-64 md:w-96 rounded-lg shadow-sm" src="{{ $page.Params.introPhoto | default (.Site.Params.defaultIntroPhoto) }}" alt="{{ $page.Title }}" />
+      <div class ="md:col-span-2 font-light text-base mb-6">
+        <!-- {{ $page.Content }} -->
+        {{ $page.Content }}
+
+
+      </div>
+      
+    </div>
+
+        <!--button class="py-2 px-4 font-light rounded-lg bg-gray-700 hover:bg-gray-600 text-lg">{{ .Site.Params.introSoutien | safeHTML}}</button>
+        <script src="https://liberapay.com/nicogreu/widgets/button.js"></script><noscript><a href="https://liberapay.com/nicogreu/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
+        <a href="https://buy.stripe.com/cN24go5DogjA4U0145"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a>
+        <form action="/url" method="GET">
+          <input class=text-gray-400 type="text">
+        </form-->
+
+  </section>

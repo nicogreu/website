@@ -1,0 +1,21 @@
+{{ $page := . }}
+<section class="{{ .Site.Params.ascentColor | default "bg-white" }} dark:bg-gray-900">
+    <div class="container max-w-3xl mx-auto px-6 pt-12 pb-8">
+      
+      {{ if .Params.introPhoto }}
+      <div class="grid md:grid-cols-3 gap-8 mb-8">
+          <img class="justify-self-center w-64 md:w-96 rounded-lg shadow-sm" 
+               src="{{ .Params.introPhoto }}" 
+               alt="{{ .Title }}" />
+          <div class="md:col-span-2 font-light text-base">
+              {{ .Params.introText | safeHTML }}
+          </div>
+      </div>
+      {{ end }}
+
+      <div class="font-light text-base mb-6">
+        {{ $page.Content }}
+      </div>
+      
+    </div>
+</section>

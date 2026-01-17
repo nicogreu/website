@@ -1,0 +1,143 @@
+/* Fonts */
+
+/* Kggloria - latin */
+@font-face {
+    font-family: "Kggloria";
+    font-style: normal;
+    src: url("/fonts/inter-v3-latin-300.eot"); /* IE9 Compat Modes */
+    src: local(""),
+      url("/fonts/inter-v3-latin-300.eot?#iefix") format("embedded-opentype"),
+      /* IE6-IE8 */ url("/fonts/kggloria.woff2") format("woff2"),
+      /* Super Modern Browsers */ url("/fonts/kggloria.woff")
+        format("woff"),
+      /* Modern Browsers */ url("/fonts/kggloria.ttf")
+        format("truetype"),
+      /* Safari, Android, iOS */ url("/fonts/inter-v3-latin-300.svg#Inter")
+        format("svg"); /* Legacy iOS */
+} 
+
+.font-crish{
+    font-family: 'Kggloria', sans-serif;
+}
+
+
+.slide { display: none; }
+.slide.active { display: block; }
+
+.bg-brand-custom {
+    background-color: #e7d4c3 !important;
+}
+.bg-brand-custom:hover {
+    background-color: #d1ab8a !important; /* A slightly darker shade for the hover effect */
+}
+
+
+header a,
+nav a {
+    color: inherit;                 /* normal state */
+    text-decoration: none;
+}
+  
+header a:hover,
+nav a:hover {
+    color: inherit;                 /* prevent hover color */
+    text-decoration: none;          /* prevent underline if needed */
+}
+
+.bg-color-beige {
+    background-color: #f2e1d0;
+    background-color: #faf1e8;
+}
+
+/* --- Base Link Styles --- */
+a {
+  text-decoration: underline;
+  color: #b45309; /* text-yellow-800 */
+}
+
+a:hover {
+  color: #92400e; /* hover:text-yellow-600 */
+}
+
+/* 1. This handles the system setting */
+@media (prefers-color-scheme: dark) {
+    html body a, html body nav a {
+        color: #d1d5db !important;
+    }
+}
+
+
+/* 2. This handles the "Class" (which Tailwind often uses) */
+.dark a, .dark nav a, [data-theme='dark'] a {
+    color: #d1d5db !important;
+}
+
+/* 3. The Active State */
+@media (prefers-color-scheme: dark) {
+    .menu-active > a { color: #facc15 !important; }
+}
+
+
+
+
+.dark .menu-active > a {
+    color: #facc15;
+}
+
+/* Navigation Buttons (Prev/Next) */
+#prev-btn, #next-btn {
+    position: relative;
+    z-index: 50;
+    background-color: #111827; /* gray-900 */
+    color: #ffffff;
+    border: 1px solid #f3f4f6;
+    padding: 12px 24px;
+    border-radius: 9999px; /* rounded-full */
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+#prev-btn:hover, #next-btn:hover {
+    background-color: #374151; /* gray-700 */
+}
+
+#prev-btn:disabled, #next-btn:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+/* --- Dots Navigation --- */
+.dot {
+    height: 12px;
+    width: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    display: inline-block;
+    transition: background-color 0.2s;
+    /* Default Inactive Color (Gray) */
+    background-color: #d1d5db; 
+}
+
+/* The "Active" state - Force Yellow for both brand consistency and visibility */
+.dot.active {
+    background-color: #DBBDA1; /* Your brand color*/
+    transform: scale(1.2); /* Slight scale up makes it even clearer */
+}
+
+.dot:hover:not(.active) {
+    background-color: #9ca3af;
+}
+
+/* Dark Mode specific adjustment for inactive dots */
+@media (prefers-color-scheme: dark), .dark {
+    .dot:not(.active) {
+        background-color: #4b5563; /* Darker gray for better contrast in dark mode */
+    }
+}
+
+
+td:last-child {
+    white-space: nowrap;
+    min-width: 140px; /* Ensures the header "Indicative Price Range" doesn't squeeze it */
+}

@@ -1,0 +1,93 @@
+# Content
+- id: postedOnDate
+  translation: "Posted on {{ . }}"
+- id: lastModified
+  translation: "(Last modified on {{ . }})"
+- id: translationsLabel
+  translation: "Other languages: "
+- id: translationsSeparator
+  translation: ", "
+- id: readMore
+  translation: "Read More"
+- id: morePosts
+  translation: "More Posts"
+- id: olderPosts
+  translation: "Older Posts"
+- id: newerPosts
+  translation: "Newer Posts"
+- id: previousPost
+  translation: "Previous Post"
+- id: nextPost
+  translation: "Next Post"
+- id: readTime
+  translation: "minutes"
+- id: words
+  translation: "words"
+- id: projects
+  translation: "Projects"
+
+# 404 page
+- id: pageNotFound
+  translation: "Whoops, this page doesn't exist. Move along. (404 error)"
+
+# Footer
+- id: builtWith
+  translation: "Built with"
+- id: adaptedFrom
+  translation: "adapted from"
+- id: legalNotice
+  translation: "Legal notice and privacy policy"
+
+# Social
+- id: member
+  translation: "Though I am self-employed, I am nevertheless a member of the following nice organisation for independent researchers :"
+- id: contactForm
+  translation: "Contact form"
+- id: fullName
+  translation: "Name"
+- id: emailAddress
+  translation: "Email address"
+- id: yourMessage
+  translation: "Message"
+- id: sendMessage
+  translation: "or send me an email at"
+
+# Navigation
+- id: toggleNavigation
+  translation: "Toggle navigation"
+- id: languageSwitcherLabel
+  translation: "Language"
+- id: gcseLabelShort
+  translation: "Search"
+- id: gcseLabelLong
+  translation: "Search {{ .Site.Title }}"
+- id: gcseClose
+  translation: "Close"
+- id: backToHome
+  translation: "Back to homepage"
+
+# Staticman
+- id: noComment
+  translation: "No comment"
+- id: oneComment
+  translation: "comment"
+- id: moreComment
+  translation: "comments"
+- id: useMarkdown
+  translation: "You can use Markdown syntax"
+- id: yourName
+  translation: "Your name"
+- id: yourEmail
+  translation: "Your email address"
+- id: yourWebsite
+  translation: "You website"
+
+# Delayed Disqus
+- id: show
+  translation: "Show"
+- id: comments
+  translation: "comments" 
+
+# Related posts
+- id: seeAlso
+  translation: "See also"

@@ -1,0 +1,48 @@
+<div class="my-3 leading-relaxed">
+    
+
+    <strong>{{ .Get "year" }}</strong>:
+      {{ .Get "author" }}
+
+      {{ if .Get "link" }}
+      <a href="{{ .Get "link" }}" target="_blank" class="text-inherit underline hover:underline">
+      {{ end }}
+
+      {{ .Get "title" }}
+
+      {{ if .Get "link" }}</a>{{ end }}
+      
+      {{ with .Get "journal" }}
+        <em>{{ . }}</em>
+      {{ end }}
+  
+      {{ with .Get "publisher" }}
+        {{ . }}
+      {{ end }}
+  
+      {{ with .Get "volume" }}
+        <span> <strong>{{ . }}</strong></span>
+      {{ end }}
+  
+      {{ with .Get "issue" }}
+        <span>({{ . }})</span>
+      {{ end }}
+  
+      {{ with .Get "pages" }}
+        , {{ . }}
+      {{ end }}
+  
+  
+    {{ if or (.Get "pdf") (.Get "doi") }}
+      <span class="ml-2">
+        {{ with .Get "pdf" }}
+          <a class="underline text-blue-600 hover:text-blue-700" href="{{ . }}" target="_blank">[PDF]</a>
+        {{ end }}
+        {{ with .Get "doi" }}
+          <a class="underline text-blue-600 hover:text-blue-700 ml-2" href="https://doi.org/{{ . }}" target="_blank">[DOI]</a>
+        {{ end }}
+      </span>
+    {{ end }}
+  </div>
+  
+  

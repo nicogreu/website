@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Apropos on Nicolas Greliche</title>
+    <link>http://localhost:1313/fr/</link>
+    <description>Recent content in Apropos on Nicolas Greliche</description>
+    <generator>Hugo</generator>
+    <language>fr</language>
+    <atom:link href="http://localhost:1313/fr/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Art</title>
+      <link>http://localhost:1313/fr/art/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/art/</guid>
+      <description>&lt;p&gt;Je crois que j&amp;rsquo;ai toujours eu une certaine aisance à produire des réflexions philosophiques ou mathématiques. C&amp;rsquo;est loin d&amp;rsquo;être la même chose pour ce qui est de l&amp;rsquo;art, où j&amp;rsquo;ai dû énormément travailler pour passer de &lt;a href=&#34;#&#34; onclick=&#34;openImageModal(); return false;&#34;&gt;ce niveau de dessin&lt;/a&gt; à 30 ans, à pouvoir produire ce que vous pouvez voir &lt;a href=&#34;https://krita-artists.org/u/nicogreu/activity/portfolio&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;ici&lt;/a&gt;&#xA; ou &lt;a href=&#34;https://www.instagram.com/duduqdrawstuff/&#34; target=&#34;_blank&#34;&gt;ici&lt;/a&gt;.&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;p&gt;Cela reflète ma façon de travailler. Je mets toujours beaucoup d&amp;rsquo;énergie dans ce que je fais. Et je veille toujours à ce que mes créations soient visuellement ou artistiquement attrayantes.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Conseil</title>
+      <link>http://localhost:1313/fr/conseil/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/conseil/</guid>
+      <description>&lt;p&gt;Je propose aux organisations à but non lucratif des accompagnements courts et intenses sur l&amp;rsquo;ensemble de leur processus de recherche. Pour plus d&amp;rsquo;information, allez sur &lt;a href=&#34;http://localhost:1313/en/consulting&#34;&gt;ma page en anglais&lt;/a&gt;.&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Contact</title>
+      <link>http://localhost:1313/fr/contact/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/contact/</guid>
+      <description>&lt;p&gt;Pour me contacter, utilisez le formulaire suivant :&lt;/p&gt;&#xA;&lt;div class=&#34;container px-4 py-6 mx-auto max-w-3xl items-center rounded bg-white dark:bg-gray-900&#34;&gt;&#xA;      &lt;form id=&#34;fs-frm&#34; name=&#34;simple-contact-form&#34; accept-charset=&#34;utf-8&#34; action=&#34;https://formspree.io/f/mwkjbazb&#34; method=&#34;POST&#34;&gt;&#xA;        &lt;fieldset id=&#34;fs-frm-inputs&#34; &gt;&#xA;          &lt;label class=&#34;px-2&#34; for=&#34;full-name&#34;&gt;Nom&lt;/label&gt;&lt;br&gt;&#xA;          &lt;input class=&#34;w-full px-2 py-1 mt-1 mb-3 bg-white dark:bg-gray-900 border rounded border-gray-500&#34; type=&#34;text&#34; name=&#34;name&#34; id=&#34;full-name&#34; required=&#34;&#34;&gt;&lt;br&gt;&#xA;          &lt;label class=&#34;px-2&#34; for=&#34;email-address&#34;&gt;Adresse email&lt;/label&gt;&lt;br&gt;&#xA;          &lt;input class=&#34;w-full px-2 py-1 mt-1 mb-3 bg-white dark:bg-gray-900 border rounded border-gray-500&#34; type=&#34;email&#34; name=&#34;_replyto&#34; id=&#34;email-address&#34; required=&#34;&#34;&gt;&lt;br&gt;&#xA;          &lt;label class=&#34;px-2&#34; for=&#34;message&#34;&gt;Message&lt;/label&gt;&lt;br&gt;&#xA;          &lt;textarea class=&#34;w-full px-2 py-1 mt-1 mb-3 bg-white dark:bg-gray-900 border rounded border-gray-500&#34; rows=&#34;5&#34; name=&#34;message&#34; id=&#34;message&#34; required=&#34;&#34;&gt;&lt;/textarea&gt;&#xA;          &lt;input type=&#34;hidden&#34; name=&#34;_subject&#34; id=&#34;email-subject&#34; value=&#34;Contact Form Submission&#34;&gt;&lt;br&gt;&#xA;        &lt;/fieldset&gt;&#xA;        &lt;div class=&#34;flex flex-col items-center&#34;&gt;&#xA;          &lt;input class=&#34;px-3 py-1 mt-1 mb-3 bg-white dark:bg-gray-900 border rounded border-gray-400 dark:border-gray-700 hover:text-yellow-800 dark:hover:text-gray-300&#34; type=&#34;submit&#34; value=&#34;Submit&#34;&gt;&#xA;        &lt;/div&gt;&#xA;      &lt;/form&gt;&#xA;  &lt;/div&gt;&lt;br&gt;&#xA;&lt;p&gt;Vous pouvez aussi soutenir mon travail sur &lt;a href=&#34;https://www.okpal.com/nicogreu/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;okpal&lt;/a&gt;&#xA; et me trouver sur les plateformes suivantes :&#xA;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CV</title>
+      <link>http://localhost:1313/fr/cv/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/cv/</guid>
+      <description>&lt;p&gt;Pour télécharger mon CV, cliquez &lt;a href=&#34;http://localhost:1313/CV-Nicolas-Greliche.pdf&#34;&gt;ici&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Mentions légales et politique de confidentialité</title>
+      <link>http://localhost:1313/fr/legal-notice/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/legal-notice/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;Éditeur :&lt;/strong&gt;&#xA;Nicolas Greliche,&#xA;nicolasgreliche [at] gmail.com&#xA;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Hébergeur :&lt;/strong&gt;&#xA;&lt;a href=&#34;https://pages.github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Github Pages&lt;/a&gt;&#xA;,&lt;br&gt;&#xA;Service de GitHub,&lt;br&gt;&#xA;88 Colin P. Kelly Jr. Street&lt;br&gt;&#xA;San Francisco, CA 94107&lt;br&gt;&#xA;États-Unis&lt;br&gt;&#xA;+1 (877) 448-4820&#xA;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Licence :&lt;/strong&gt;&#xA;Outre les icônes et logos qui sont propriété des organismes correspondants, l&amp;rsquo;ensemble du contenu de ce site est mis à disposition sous licence &lt;a href=&#34;http://creativecommons.org/licenses/by/4.0/%22&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Creative Commons Attribution 4.0 International&lt;/a&gt;&#xA;.&#xA;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;Politique de confidentialité :&lt;/strong&gt;&#xA;Ce site n&amp;rsquo;utilise pas de cookies et ne collecte aucune information autre que celles renseignées dans le formulaire de contact. Ces dernières informations ne sont par ailleurs partagées avec personne.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Outreach</title>
+      <link>http://localhost:1313/fr/outreach/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/outreach/</guid>
+      <description>&lt;p&gt;Je rêverais de voir un jour un blockbuster investir une grande partie de son budget dans le développement de contenu éducatif de grande qualité.&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;p&gt;En attendant, la bande dessinée &lt;a href=&#34;https://crish.fr/en&#34; class=&#34;underline&#34; target=&#34;_blank&#34;&gt;&lt;span class=&#34;font-crish italic text-lg&#34;&gt;crish&lt;/span&gt;&lt;/a&gt; &amp;mdash; une histoire semi-fantastique remplie d&amp;rsquo;humour absurde et de courtes &lt;strong&gt;discussions sur les statistiques et le monde de la recherche&lt;/strong&gt; &amp;mdash; est ma modeste tentative de montrer que le divertissement peut très bien véhiculer des idées philosophiques et éducatives profondes.&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Research</title>
+      <link>http://localhost:1313/fr/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/fr/research/</guid>
+      <description>&lt;p&gt;Mon travail de recherche porte principalement sur &lt;strong&gt;comprendre comment nous pouvons apprendre à partir de données&lt;/strong&gt;, et comment le &lt;em&gt;raisonnement statistique informel&lt;/em&gt; peut éclairer certaines questions clés en épistémologie, théorie de la décision et philosophie des sciences.&#xA;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;p&gt;Mes autres préoccupations de recherche incluent des contributions à la (très niche) &lt;strong&gt;philosophie de la bande dessinée&lt;/strong&gt; et à la (très interdisciplinaire) &lt;strong&gt;philosophie expérimentale&lt;/strong&gt;.&#xA;&lt;br&gt;&lt;br&gt;&lt;/p&gt;&#xA;&lt;p&gt;Les résultats des recherches issues de ma reconversion récente vers ces investigations philosophiques sont présentés ci-dessous.&#xA;&lt;br&gt;&lt;br&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
