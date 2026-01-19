@@ -182,11 +182,11 @@ And here are a few pages extracted from my comic <a href="https://crish.fr/en" c
 
 <strong>Because I offer a rare combination of deep technical expertise and communicative clarity and appeal.</strong><br><br>
 
-In addition to being a <strong><em>research methods expert</em></strong> with a PhD in Biostatistics and over a decade of cross-disciplinary experience providing research advice for mission-driven organizations, I am also a <strong><em>skilled analytic philosopher</em></strong> who will ensure your methodology is logically rock solid, and a <strong><em>comic artist</em></strong> and <strong><em>science communicator</em></strong> who will produce deliverables that are donor- or stakeholder-ready, jargon-free, and visually compelling.<br><br>
+In addition to being a <strong><em>research methods expert</em></strong> with a PhD in Biostatistics and over a decade of cross-disciplinary experience providing research advice for mission-driven organizations (e.g. UNICEF, McKnight Foundation, Statistics For Sustainable Development, Saint Joseph Hospital's Clinical Research Center, James Cook University, NGOs and Research Organizations in Mali, Burkina Faso, Niger, Senegal, Togo, Ethiopia, Madagascar), I am also a <strong><em>skilled analytic philosopher</em></strong> who will ensure your methodology is logically rock solid, and a <strong><em>comic artist</em></strong> and <strong><em>science communicator</em></strong> who will produce deliverables that are donor- or stakeholder-ready, jargon-free, and visually compelling.<br><br>
 
 
 <h3 class="text-lg font-medium mb-4">Let's have a chat</h3>
-If you have a project that requires a burst of technical rigor and clear communication, <a href="/en/contact"><strong>let's discuss it</strong></a>. I am based in Madrid, but serving NGOs, foundations and researchers worldwide.<br>
+If you have a project that requires a burst of technical rigor and clear communication, <a href="/en/contact"><strong>let's discuss it</strong></a>. I am based in Madrid, but serving NGOs, foundations and researchers <strong>worldwide</strong>. And I am fluent in <strong>English</strong>, <strong>French</strong> and <strong>Spanish</strong>.<br>
 
 
 

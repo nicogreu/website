@@ -1518,9 +1518,6 @@ a.page-link {
 .underline {
   text-decoration-line: underline;
 }
-.no-underline {
-  text-decoration-line: none;
-}
 .opacity-60 {
   opacity: 0.6;
 }
