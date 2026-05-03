@@ -5,5 +5,5 @@ showExtraContent: false
 layout: small_image
 ---
 
-To download my CV, click <a href="/pdfs/CV-Nicolas-Greliche.pdf">here</a>.
+To download my CV, click <a href="/pdfs/CV.pdf">here</a>.
 

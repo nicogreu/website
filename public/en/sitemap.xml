@@ -2,138 +2,138 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/en/</loc>
+    <loc>https://nicogreu.github.io/en/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/"
+                href="https://nicogreu.github.io/fr/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/"
+                href="https://nicogreu.github.io/en/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/art/</loc>
+    <loc>https://nicogreu.github.io/en/art/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/art/"
+                href="https://nicogreu.github.io/fr/art/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/art/"
+                href="https://nicogreu.github.io/en/art/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/categories/</loc>
+    <loc>https://nicogreu.github.io/en/categories/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/categories/"
+                href="https://nicogreu.github.io/fr/categories/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/categories/"
+                href="https://nicogreu.github.io/en/categories/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/collaboration/</loc>
+    <loc>https://nicogreu.github.io/en/collaboration/</loc>
   </url><url>
-    <loc>http://localhost:1313/en/consulting/</loc>
+    <loc>https://nicogreu.github.io/en/consulting/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/conseil/"
+                href="https://nicogreu.github.io/fr/conseil/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/consulting/"
+                href="https://nicogreu.github.io/en/consulting/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/contact/</loc>
+    <loc>https://nicogreu.github.io/en/contact/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/contact/"
+                href="https://nicogreu.github.io/fr/contact/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/contact/"
+                href="https://nicogreu.github.io/en/contact/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/cv/</loc>
+    <loc>https://nicogreu.github.io/en/cv/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/cv/"
+                href="https://nicogreu.github.io/fr/cv/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/cv/"
+                href="https://nicogreu.github.io/en/cv/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/legal-notice/</loc>
+    <loc>https://nicogreu.github.io/en/legal-notice/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/legal-notice/"
+                href="https://nicogreu.github.io/fr/legal-notice/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/legal-notice/"
+                href="https://nicogreu.github.io/en/legal-notice/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/outreach/</loc>
+    <loc>https://nicogreu.github.io/en/outreach/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/outreach/"
+                href="https://nicogreu.github.io/fr/outreach/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/outreach/"
+                href="https://nicogreu.github.io/en/outreach/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/page/</loc>
+    <loc>https://nicogreu.github.io/en/page/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/page/"
+                href="https://nicogreu.github.io/fr/page/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/page/"
+                href="https://nicogreu.github.io/en/page/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/research/</loc>
+    <loc>https://nicogreu.github.io/en/research/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/research/"
+                href="https://nicogreu.github.io/fr/research/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/research/"
+                href="https://nicogreu.github.io/en/research/"
                 />
   </url><url>
-    <loc>http://localhost:1313/en/tags/</loc>
+    <loc>https://nicogreu.github.io/en/tags/</loc>
     <xhtml:link
                 rel="alternate"
                 hreflang="fr"
-                href="http://localhost:1313/fr/tags/"
+                href="https://nicogreu.github.io/fr/tags/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="http://localhost:1313/en/tags/"
+                href="https://nicogreu.github.io/en/tags/"
                 />
   </url>
 </urlset>
